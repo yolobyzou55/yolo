@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0,5s;
+}   
+.logo{
+    color: rgba(0, 0, 0, 0.274);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: black;
+}
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: rgba(0, 0, 0, 0.274);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700 ;
+}
+.bouton{
+    padding: 5px 10px;
+    background: #888888;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.bouton:hover{
+    background-color: #1111;
+    transition: ease-out;
+}
+header .navbar li a:hover{
+    color: #888888;
+    border-bottom: 2px solid #888888;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(/fashion-time/background/IMG-0128.jpg);
+}
+.banner .contain{
+    max-width: 70%;
+    text-align: center;
+}
+.banner .contain h2{
+    color: #888888;
+    font-size: 1,5;
+    text-transform: capitalize;
+}
+.banner .contain h3{
+    color: #888888;
+}
+.btn1{
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.274);
+    background-color: #888888;
+    padding: 5px 10px;
+    display: inline-block ;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn2{
+    font-size: 1em;
+    color: #888888;
+    background-color: black;
+    padding: 5px 10px;
+    display: inline-block ;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+.apropos{
+    padding: 100px;
+    display: flex;
+}
+.apropos h3{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+.row .col50 h2{
+    margin-bottom: 20px;
+}
+.titre{
+    font-size: 50pxpx;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.titre span{
+    color: #888888;
+}
+.img{
+    margin-right: 100px;
+}
+.models{
+    margin: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards .card-body{
+    cursor: pointer;
+    
+}
+.cards .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 5px 10px;
+    border: none;
+    color: rgba(4, 0, 255, 0.411);
+}
+.bazin{
+    display: flex;
+}
+.modeles{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 25px;
+}
+.cards-body{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    background-image: url(/fashion-time/background/IMG-0129.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+.titre1{
+    margin-left: 450px;
+}
+.titre1 h2{
+    text-align: center;
+    margin-right: 500px;
+}
+.contactform{
+    padding: 65px 40px;
+    background: #fff;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.contact .boite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactform .boite input{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.boite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #111;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactform .boite input[type="submit"]{
+    font-size: 1em;
+    font-weight:700 ;
+    color: #fff;
+    background: #888888;
+    border: none;
+    max-width: 120px;
+}
+footer{
+    padding: 20px 40ps;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    background: #888888;
+    color: #111;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+}
